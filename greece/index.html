@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Elladara</title>
+    <meta charset="utf-8">
+    <style>
+    /* CSS goes here. */
+    path {
+        fill: steelblue;
+        stroke: #777;
+    }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="../libs/topojson.v1.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h3>Map of Greece</h3>
+    </header>
+    <section id='greece'>
+    </section>
+    <script>
+    var width = window.innerWidth,
+        height = window.innerHeight;
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    d3.json("./data/greece.topojson", function(error, map) {
+        console.log(map);
+
+        var greece = topojson.feature(map, map.objects['67cb40e8774bd10a603e3ef9f7b75c26']);
+        var projection = d3.geo.mercator()
+            .center([26, 39.5])
+            .scale([4000])
+
+        var path = d3.geo.path()
+            .projection(projection);
+
+        svg.append("path")
+            .datum(greece)
+            .attr("d", path);
+    });
+    </script>
+
+</body>
+
+</html>

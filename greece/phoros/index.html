@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset='utf-8'" />
+
+
+<html>
+
+<head>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+
+
+    <style>
+    svg {
+        fill : #ddd;
+    }
+    .allSites {
+        fill : #999;
+        stroke: black;
+        stroke-width:"2"
+    }
+    .tooltip {
+        background-color: rgba(120, 120, 120, 0.5);
+        color: #333;
+        margin: 10px;
+        height: 25px;
+        width: 200px;
+        padding-left: 10px;
+        padding-top: 10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius:10px;
+    }
+    body {
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Ο Αθηναϊκός Φόρος την κλασσική εποχή</h2>
+    </header>
+
+
+    <article id="main">
+
+        <form>
+            <label for="year">Διαλέχτε έτος:</label>
+            <select id="year">
+                <option>--Διαλέχτε έτος--</option>
+                <option value="year_1">1ο</option>
+                <option value="year_2">2ο</option>
+                <option value="year_3">3ο</option>
+                <option value="year_4">4ο</option>
+                <option value="year_5">5ο</option>
+                <option value="year_6">6ο</option>
+                <option value="year_7">7ο</option>
+                <option value="year_8">8ο</option>
+            </select>
+        </form>
+
+        <script>
+        // All these globals should be placed in an 'app' object
+         // for namespacing ...
+
+         // The point data set, in geojson format:
+        var geoj
+         // The svg object to draw with:
+        var svg
+
+        var width = 1000,
+            height = 600;
+
+
+        var key = function(s) {
+            return s.properties.urn;
+        }
+
+        var proj = d3.geo.mercator()
+            .center([27, 38.5])
+            .scale([3200]);
+
+        var path = d3.geo.path()
+            .projection(proj)
+            .pointRadius(2);
+
+        var tooltip = d3.select("#main")
+            .append("div")
+            .style("position", "absolute")
+            .style("z-index", "10")
+            .style("visibility", "hidden")
+            .text("a simple tooltip")
+            .attr("class", "tooltip");
+
+
+
+        var buildPage = function(error, greece, lls) {
+            svg = d3.select("#main").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            var coast = topojson.feature(greece, greece.objects.aegean);
+            svg.append("path")
+                .datum(coast)
+                .attr("d", path)
+
+            geoj = lls;
+            svg.selectAll(".allSites")
+                .data(geoj.features, key)
+                .enter()
+                .insert("a")
+                .attr("xlink:href", function(s) {
+                    return ("http://beta.hpcc.uh.edu/tomcat/phoros/site.html?urn=" + s.properties.urn);
+                })
+                .append("path")
+                .attr("d", path)
+                .attr("class", "allSites")
+                .on("mouseover", function(s) {
+                    /* Add test here and set color based on year */
+                    tooltip.text(s.properties.siteName);
+                    return tooltip.style("visibility", "visible");
+                })
+                .on("mousemove", function() {
+                    return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px");
+                })
+                .on("mouseout", function() {
+                    return tooltip.style("visibility", "hidden");
+                });
+
+
+        }
+
+        queue()
+            .defer(d3.json, "aegean.topojson")
+            .defer(d3.json, "phorosall.geojson")
+            .await(buildPage);
+
+
+
+        d3.select("#year").on("change", change)
+
+        function change() {
+            var yrStr = this.options[this.selectedIndex].value;
+            var sites = svg.selectAll(".allSites")
+                .data(geoj.features, key);
+
+            sites
+                .transition(8000)
+                .style("stroke-width", function(d) {
+                    if (d.properties[yrStr] !== undefined) {
+                        return 8;
+                    } else {
+                        return 1;
+                    }
+                })
+
+
+            .style("fill-opacity", function(d) {
+                if (d.properties[yrStr] !== undefined) {
+                    return 1.0;
+                } else {
+                    return 0.5;
+                }
+            })
+
+            .style("stroke", function(d) {
+                if (d.properties[yrStr] !== undefined) {
+                    return "green";
+                } else {
+                    return "#ffa500";
+                }
+            });
+
+            sites
+                .enter();
+
+        }
+        </script>
+
+
+    </article>
+    <footer>
+        <p>Η ιστοσελίδα αυτή αποτελεί μετάφραση (αν και όχι ακομα πληρης και με μικροαλλαγές στον κώδικα) της εξαιρετικής δουλειάς/ιστοσελίδας που έχει κάνει ο <a href="http://bl.ocks.org/neelsmith/9323752">Neel Smith</a> για την κοινοποίση αρχαιων πηγων (γραπτων η μη) μεσω του διαδικτυου, που αφορουν συγκεκριμενα τον φορο την εποχη του Περικλη. Εχει φτιαχτει με σκοπο την γεωγραφικη απεικονιση ακριβως οπώς την εχουμε μαθει στα σχολικα μας βιβλια, με προφανη εμφαση ομως στην αμφιδρομη σχεση μεταξυ δεκτη και δωτη της πληροφοριας/γνωσης.</p>
+        <p>Η ιστοσελίδα ειναι ενα πρωτο πειραμα για τον τροπο παραδωσης του περιεγχομενου της <a href="http://fruitopology.com/">Φρουτοπολογίας</a>, της βασικής μας ιστοσελιδας, στα ελληνικά. Σκοπός του πειραματος αυτου να αποδειξουμε οτι οποιαδηποτε μορφη πληροφοριας (οχι μονο στατιστικες και αριθμοί) μπορει να αναπαρασταθει γραφικα πολυ καλυτερα απ ο'τι προφορικα, με την βοηθεια ενος εργαλείου, του υπολογιστη, και μιας ελευθερης πλατφόρμας εκδοσης πληροφοριων, το Διαδύκτιο</p>
+        <p>Θα επανελθουμε εκτενεστερα πολυ συντομα, με περισσοτερες πληροφορίες και εκτενεστερες μεταφρασεις</p>
+    </footer>
+</body>
+
+</html>

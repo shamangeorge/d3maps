@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solar Radiation Data</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../libs/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="../libs/d3.tip.v0.6.3.js"></script>
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Balthazar'>
+    <link rel="stylesheet" type='text/css' href="./css/main.css">
+</head>
+
+
+<body>
+    <header>
+        <h2>United States Solar Radiation Data</h2>
+        <p>Average Per Day, per Station</p>
+    </header>
+
+    <section id="visuals">
+        <div id="vis"></div>
+        <div id="detailVis"></div>
+    </section>
+    <article>
+        <h3>Data Sources</h3>
+        <p>Taken from the National Solar Radiation Database. The database contains solar radiation measures. All data dimensions are mapped to a station ID (USAFN). The station ID maps to a station which has a location on the map.From 2003 until 2004, the measures are recorded in an hourly resolution for many, but not all, stations. Stations without data are marked red, the rest are blue.</p>
+        <p>The bottom graph shows the distribution of light during a day over the whole period of records</p>
+    </article>
+
+    <script src="./GeoUSA.js"></script>
+</body>
+
+</html>

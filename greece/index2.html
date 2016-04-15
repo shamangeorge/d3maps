@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.subunit {
+    fill: #ddc;
+}
+.subunit-boundary {
+    fill: none;
+    stroke: #777;
+    stroke-dasharray: 2, 2;
+    stroke-linejoin: round;
+}
+.subunit-label {
+    fill: #777;
+    fill-opacity: .5;
+    font-size: 30px;
+    font-weight: 300;
+    text-anchor: middle;
+}
+</style>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="../libs/topojson.v1.min.js"></script>
+    <script>
+    var width = 960,
+        height = 1160;
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+    var projection = d3.geo.mercator()
+        .center([26, 39.5])
+        .scale([4000]);
+    // var projection = d3.geo.albers()
+    //     .center([26, 39.5])
+    //     .rotate([1.4, 3])
+    //     .parallels([50, 60])
+    //     .scale(6000)
+    //     .translate([width / 2, height / 2]);
+    var path = d3.geo.path()
+        .projection(projection);
+    /* JavaScript goes here. */
+    d3.json("./data/gr.json", function(error, greece) {
+        var subunits = topojson.feature(greece, greece.objects.subunits);
+        svg.append("path")
+            .datum(subunits)
+            .attr("d", path);
+        svg.selectAll(".subunit")
+            .data(topojson.feature(greece, greece.objects.subunits).features)
+            .enter().append("path")
+            .attr("class", function(d) {
+                console.log(d.id)
+                return "subunit " + d.id;
+            })
+            .attr("d", path);
+        svg.append("path")
+            .datum(topojson.mesh(greece, greece.objects.subunits, function(a, b) {
+                return a !== b && a.id !== "IRL";
+            }))
+            .attr("d", path)
+            .attr("class", "subunit-boundary");
+        svg.append("path")
+            .datum(topojson.feature(greece, greece.objects.places))
+            .attr("d", path)
+            .attr("class", "place");
+        svg.selectAll(".place-label")
+            .data(topojson.feature(greece, greece.objects.places).features)
+            .enter().append("text")
+            .attr("class", "place-label")
+            .style('font-size', '10px')
+            .attr("transform", function(d) {
+                return "translate(" + projection(d.geometry.coordinates) + ")";
+            })
+            .attr("dy", ".35em")
+            .text(function(d) {
+                return d.properties.name;
+            });
+        svg.selectAll(".place-label")
+            .attr("x", function(d) {
+                return d.geometry.coordinates[0] > -1 ? 6 : -6;
+            })
+            .style("text-anchor", function(d) {
+                return d.geometry.coordinates[0] > -1 ? "start" : "end";
+            });
+        svg.selectAll(".subunit-label")
+            .data(topojson.feature(greece, greece.objects.subunits).features)
+            .enter().append("text")
+            .attr("class", function(d) {
+                return "subunit-label " + d.id;
+            })
+            .attr("transform", function(d) {
+                return "translate(" + path.centroid(d) + ")";
+            })
+            .attr("dy", ".35em")
+            .text(function(d) {
+                return d.properties.name;
+            });
+
+    });
+    </script>
+</body>

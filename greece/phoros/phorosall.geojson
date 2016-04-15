@@ -1,0 +1,3532 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    23.795768999999996,
+                    40.592218000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Σταγειρα",
+                "urn": "urn:cite:phoros:places.1",
+                "year_1": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.66667,
+                    39.950000000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Therambos",
+                "urn": "urn:cite:phoros:places.10",
+                "year_1": "3600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.412789,
+                    37.054602000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pedasa",
+                "urn": "urn:cite:phoros:places.100",
+                "year_2": "1200",
+                "year_4": "1200",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.297566084106442,
+                    37.659724652604169
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Priene",
+                "urn": "urn:cite:phoros:places.101",
+                "year_2": "600",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.650051999999999,
+                    37.191684000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kindya",
+                "urn": "urn:cite:phoros:places.102",
+                "year_2": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.589504999999999,
+                    37.195835000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Bargylia",
+                "urn": "urn:cite:phoros:places.103",
+                "year_2": "100",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.589504999999999,
+                    37.195835000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Bargylia",
+                "urn": "urn:cite:phoros:places.104",
+                "year_2": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.436606000000001,
+                    40.099366000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Aphytis",
+                "urn": "urn:cite:phoros:places.105",
+                "year_3": "1800",
+                "year_4": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.25,
+                    39.916666999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lemnos",
+                "urn": "urn:cite:phoros:places.106",
+                "year_3": "5400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.25,
+                    39.916666999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lemnos",
+                "urn": "urn:cite:phoros:places.107",
+                "year_5": "1728",
+                "year_8": "324",
+                "year_3": "2700"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.25,
+                    39.916666999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lemnos",
+                "urn": "urn:cite:phoros:places.108",
+                "year_3": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.983332999999998,
+                    36.983333000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kalymna",
+                "urn": "urn:cite:phoros:places.109",
+                "year_3": "900",
+                "year_4": "900",
+                "year_5": "900",
+                "year_7": "900",
+                "year_8": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.937453000000001,
+                    38.928297000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pitane",
+                "urn": "urn:cite:phoros:places.11",
+                "year_2": "100",
+                "year_1": "100",
+                "year_3": "100",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.621536000000003,
+                    36.825909000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kaunos",
+                "urn": "urn:cite:phoros:places.110",
+                "year_3": "300",
+                "year_4": "300",
+                "year_7": "300",
+                "year_8": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.529585999999998,
+                    37.161848999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Karyanda",
+                "urn": "urn:cite:phoros:places.111",
+                "year_3": "100",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.398060000000001,
+                    39.971454000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Mende",
+                "urn": "urn:cite:phoros:places.112",
+                "year_3": "4800",
+                "year_4": "4800",
+                "year_7": "9000",
+                "year_8": "9000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.398060000000001,
+                    39.971454000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Mende",
+                "urn": "urn:cite:phoros:places.113",
+                "year_3": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.328619,
+                    37.445959000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Μυκονος",
+                "urn": "urn:cite:phoros:places.114",
+                "year_3": "900",
+                "year_4": "900",
+                "year_7": "900",
+                "year_8": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.025789,
+                    40.983393
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kalchedon",
+                "urn": "urn:cite:phoros:places.115",
+                "year_3": "4501",
+                "year_7": "5400",
+                "year_8": "5400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.787096999999999,
+                    40.400224999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Paisos",
+                "urn": "urn:cite:phoros:places.116",
+                "year_3": "100",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.2774885,
+                    37.5292362
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Μιλητος",
+                "urn": "urn:cite:phoros:places.117",
+                "year_8": "6000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.542853999999995,
+                    39.535451000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Γαργαρα",
+                "urn": "urn:cite:phoros:places.118",
+                "year_3": "450",
+                "year_7": "450",
+                "year_8": "450"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.433116999999999,
+                    37.595252000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Myous",
+                "urn": "urn:cite:phoros:places.119",
+                "year_8": "600",
+                "year_3": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.158674000000001,
+                    40.288017000000004
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Thyssos",
+                "urn": "urn:cite:phoros:places.12",
+                "year_1": "400",
+                "year_3": "400",
+                "year_4": "400",
+                "year_5": "900",
+                "year_7": "900",
+                "year_8": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.158674000000001,
+                    40.288017000000004
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Thyssos",
+                "urn": "urn:cite:phoros:places.120",
+                "year_3": "600",
+                "year_4": "600",
+                "year_5": "600",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    22.982897000000001,
+                    38.842284999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Athenai Diades",
+                "urn": "urn:cite:phoros:places.121",
+                "year_7": "100",
+                "year_3": "200",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.588806000000002,
+                    40.273913
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Perkote",
+                "urn": "urn:cite:phoros:places.123",
+                "year_3": "100",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.588806000000002,
+                    40.273913
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Perkote",
+                "urn": "urn:cite:phoros:places.124",
+                "year_3": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.374039999999997,
+                    36.686188000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Knidos",
+                "urn": "urn:cite:phoros:places.125",
+                "year_3": "1800",
+                "year_4": "1800",
+                "year_8": "300",
+                "year_5": "3000",
+                "year_7": "3000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.445529000000001,
+                    36.885007000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pyrnos",
+                "urn": "urn:cite:phoros:places.126",
+                "year_3": "100",
+                "year_4": "100",
+                "year_5": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.303743000000001,
+                    40.403337999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Priapos",
+                "urn": "urn:cite:phoros:places.127",
+                "year_3": "50",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.156289999999998,
+                    36.41451
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ialysos",
+                "urn": "urn:cite:phoros:places.128",
+                "year_3": "6000",
+                "year_4": "6000",
+                "year_5": "6000",
+                "year_7": "6000",
+                "year_8": "6000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.900812299999998,
+                    39.977053400000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Torone",
+                "urn": "urn:cite:phoros:places.13",
+                "year_8": "7200",
+                "year_7": "4744",
+                "year_1": "7200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.038408,
+                    41.053505999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Daunion/Damnion",
+                "urn": "urn:cite:phoros:places.130",
+                "year_3": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.688002999999998,
+                    39.825539999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skepsis",
+                "urn": "urn:cite:phoros:places.131",
+                "year_4": "100",
+                "year_5": "100",
+                "year_7": "100",
+                "year_8": "100",
+                "year_3": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.25,
+                    39.75
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Azeia",
+                "urn": "urn:cite:phoros:places.132",
+                "year_3": "40",
+                "year_4": "40"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.508247000000001,
+                    40.910981999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Berge",
+                "urn": "urn:cite:phoros:places.133",
+                "year_3": "5070",
+                "year_8": "324"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.114093,
+                    40.617745999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Tyrodiza",
+                "urn": "urn:cite:phoros:places.134",
+                "year_3": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.920000000000002,
+                    37.43
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Συρος",
+                "urn": "urn:cite:phoros:places.135",
+                "year_7": "100",
+                "year_8": "100",
+                "year_3": "150"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.920000000000002,
+                    37.43
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Συρος",
+                "urn": "urn:cite:phoros:places.136",
+                "year_8": "2400",
+                "year_7": "5400",
+                "year_3": "7200",
+                "year_4": "7200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.952973,
+                    40.971012999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Perinthos",
+                "urn": "urn:cite:phoros:places.137",
+                "year_3": "100",
+                "year_5": "2293"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.753208000000001,
+                    38.670352999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Phokaia",
+                "urn": "urn:cite:phoros:places.138",
+                "year_3": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.973881499999997,
+                    41.005901999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Βυζαντιον",
+                "urn": "urn:cite:phoros:places.139",
+                "year_8": "28802880",
+                "year_3": "9000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.306117,
+                    40.098381000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Σανη",
+                "urn": "urn:cite:phoros:places.14",
+                "year_8": "600",
+                "year_7": "200",
+                "year_2": "600",
+                "year_5": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.874127000000001,
+                    40.389806
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kyzikos",
+                "urn": "urn:cite:phoros:places.140",
+                "year_8": "432"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.666063999999999,
+                    39.978627000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Aige",
+                "urn": "urn:cite:phoros:places.143",
+                "year_4": "300",
+                "year_7": "300",
+                "year_8": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.666063999999999,
+                    39.978627000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Aige",
+                "urn": "urn:cite:phoros:places.144",
+                "year_4": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.859999999999999,
+                    37.850000000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ανδρος",
+                "urn": "urn:cite:phoros:places.145",
+                "year_7": "3600",
+                "year_8": "3600",
+                "year_4": "7200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.859999999999999,
+                    37.850000000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ανδρος",
+                "urn": "urn:cite:phoros:places.146",
+                "year_4": "1200",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.859999999999999,
+                    37.850000000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ανδρος",
+                "urn": "urn:cite:phoros:places.147",
+                "year_4": "1350"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.213287000000001,
+                    37.412059999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Rheneia",
+                "urn": "urn:cite:phoros:places.148",
+                "year_4": "1800",
+                "year_7": "30",
+                "year_8": "30"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.420380999999999,
+                    38.016540999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Καρυστος",
+                "urn": "urn:cite:phoros:places.149",
+                "year_7": "3000",
+                "year_8": "3000",
+                "year_4": "4500"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.190639000000001,
+                    40.330421999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Olophyxos",
+                "urn": "urn:cite:phoros:places.15",
+                "year_7": "150",
+                "year_4": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.159839999999999,
+                    38.401105000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Grynche",
+                "urn": "urn:cite:phoros:places.150",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.544474000000001,
+                    37.614322999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Parparos",
+                "urn": "urn:cite:phoros:places.151",
+                "year_4": "100",
+                "year_5": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.785014,
+                    38.177261999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Teos",
+                "urn": "urn:cite:phoros:places.152",
+                "year_4": "3600",
+                "year_5": "3600",
+                "year_7": "3600",
+                "year_8": "3600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.686456,
+                    40.236370000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Palaiperkote",
+                "urn": "urn:cite:phoros:places.153",
+                "year_4": "100",
+                "year_8": "100",
+                "year_7": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.686456,
+                    40.236370000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Palaiperkote",
+                "urn": "urn:cite:phoros:places.154",
+                "year_4": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.6928795,
+                    36.781067500000006
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pasanda",
+                "urn": "urn:cite:phoros:places.155",
+                "year_4": "300",
+                "year_5": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.6928795,
+                    36.781067500000006
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pasanda",
+                "urn": "urn:cite:phoros:places.156",
+                "year_4": "160",
+                "year_5": "160",
+                "year_7": "160",
+                "year_8": "160"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.900777000000001,
+                    39.163500999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ikos",
+                "urn": "urn:cite:phoros:places.157",
+                "year_4": "150",
+                "year_7": "150",
+                "year_8": "150"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.374420000000001,
+                    40.079726999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Dardanos",
+                "urn": "urn:cite:phoros:places.158",
+                "year_7": "100",
+                "year_5": "276",
+                "year_8": "600",
+                "year_4": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.247676999999999,
+                    41.078496000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Selymbria",
+                "urn": "urn:cite:phoros:places.159",
+                "year_4": "3600",
+                "year_7": "3600",
+                "year_8": "3600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.247676999999999,
+                    41.078496000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Selymbria",
+                "urn": "urn:cite:phoros:places.16",
+                "year_4": "600",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.247676999999999,
+                    41.078496000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Selymbria",
+                "urn": "urn:cite:phoros:places.160",
+                "year_5": "2136",
+                "year_7": "2136",
+                "year_8": "2196",
+                "year_4": "3000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.247676999999999,
+                    41.078496000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Selymbria",
+                "urn": "urn:cite:phoros:places.161",
+                "year_4": "120",
+                "year_7": "120",
+                "year_8": "120"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    22.893156500000003,
+                    39.362124999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Aison",
+                "urn": "urn:cite:phoros:places.162",
+                "year_4": "150",
+                "year_5": "150",
+                "year_7": "150",
+                "year_8": "150"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.643214,
+                    37.593736999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Thasthara",
+                "urn": "urn:cite:phoros:places.163",
+                "year_4": "50",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.643214,
+                    37.593736999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Thasthara",
+                "urn": "urn:cite:phoros:places.164",
+                "year_5": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.333333,
+                    37.616667
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Κεα",
+                "urn": "urn:cite:phoros:places.166",
+                "year_7": "2400",
+                "year_8": "2400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.167",
+                "year_4": "200",
+                "year_5": "210",
+                "year_7": "210",
+                "year_8": "210"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.168",
+                "year_4": "40",
+                "year_5": "40",
+                "year_7": "40",
+                "year_8": "40"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.169",
+                "year_4": "106"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.17",
+                "year_3": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.170",
+                "year_4": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.171",
+                "year_4": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.685711999999999,
+                    37.349057999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Chalketor",
+                "urn": "urn:cite:phoros:places.172",
+                "year_4": "150"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.915849999999995,
+                    36.674495
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Telandros",
+                "urn": "urn:cite:phoros:places.173",
+                "year_8": "150",
+                "year_7": "300",
+                "year_4": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.964721999999998,
+                    38.077883
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lebedos",
+                "urn": "urn:cite:phoros:places.174",
+                "year_4": "1800",
+                "year_5": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.964721999999998,
+                    38.077883
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lebedos",
+                "urn": "urn:cite:phoros:places.175",
+                "year_5": "300",
+                "year_7": "300",
+                "year_8": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.789697,
+                    37.316870999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Mylasa",
+                "urn": "urn:cite:phoros:places.176",
+                "year_5": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.133333,
+                    35.583333000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Καρπαθος",
+                "urn": "urn:cite:phoros:places.179",
+                "year_5": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.133333,
+                    35.583333000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Καρπαθος",
+                "urn": "urn:cite:phoros:places.18",
+                "year_3": "1800",
+                "year_2": "10800",
+                "year_1": "10800",
+                "year_4": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.1204377,
+                    35.477574400000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Arkaseia",
+                "urn": "urn:cite:phoros:places.180",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    22.879124000000001,
+                    40.439481000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Aineia",
+                "urn": "urn:cite:phoros:places.182",
+                "year_5": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    22.879124000000001,
+                    40.439481000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Aineia",
+                "urn": "urn:cite:phoros:places.183",
+                "year_5": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.880112,
+                    40.399749999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Akanthos",
+                "urn": "urn:cite:phoros:places.184",
+                "year_5": "3000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.776644000000001,
+                    37.025229000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pargasa",
+                "urn": "urn:cite:phoros:places.185",
+                "year_5": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.279146000000001,
+                    39.876942999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Gentinos",
+                "urn": "urn:cite:phoros:places.186",
+                "year_5": "50",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.488506000000001,
+                    39.164020999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Σκιαθος",
+                "urn": "urn:cite:phoros:places.187",
+                "year_5": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    22.944019999999998,
+                    40.58155
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Serme",
+                "urn": "urn:cite:phoros:places.188",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.411297999999999,
+                    40.194214000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Abydos",
+                "urn": "urn:cite:phoros:places.19",
+                "year_1": "2626"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.114000000000001,
+                    37.606999999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Tenos",
+                "urn": "urn:cite:phoros:places.190",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.666667,
+                    36.983333000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Σιφνος",
+                "urn": "urn:cite:phoros:places.191",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.150728000000001,
+                    37.085790000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Παρος",
+                "urn": "urn:cite:phoros:places.192",
+                "year_7": "9720",
+                "year_8": "9720"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.177454000000001,
+                    39.97336
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Sigeion",
+                "urn": "urn:cite:phoros:places.193",
+                "year_8": "24",
+                "year_7": "76"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.429784000000001,
+                    37.412292999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Κυθνος",
+                "urn": "urn:cite:phoros:places.194",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.240527,
+                    38.155245000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Styra",
+                "urn": "urn:cite:phoros:places.195",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.090527000000002,
+                    38.946604000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Hestiaia",
+                "urn": "urn:cite:phoros:places.196",
+                "year_7": "100",
+                "year_8": "98"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.377594999999999,
+                    37.103870999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ναξος",
+                "urn": "urn:cite:phoros:places.197",
+                "year_7": "4000",
+                "year_8": "4000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.480833000000001,
+                    38.382778000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ερυθραι",
+                "urn": "urn:cite:phoros:places.198",
+                "year_8": "5260",
+                "year_5": "270",
+                "year_7": "5400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.584578000000004,
+                    37.279525
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Iasos",
+                "urn": "urn:cite:phoros:places.199",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.584578000000004,
+                    37.279525
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Iasos",
+                "urn": "urn:cite:phoros:places.2",
+                "year_1": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.921195000000001,
+                    36.336185
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kameiros",
+                "urn": "urn:cite:phoros:places.20",
+                "year_7": "4500",
+                "year_3": "5400",
+                "year_4": "5400",
+                "year_1": "5400",
+                "year_5": "5400",
+                "year_8": "5400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.921195000000001,
+                    36.336185
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kameiros",
+                "urn": "urn:cite:phoros:places.201",
+                "year_5": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.079785000000001,
+                    37.087316999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pladasa",
+                "urn": "urn:cite:phoros:places.202",
+                "year_7": "200",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.570356,
+                    37.050370999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Syangela",
+                "urn": "urn:cite:phoros:places.203",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.367318999999998,
+                    37.059443000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Idyma",
+                "urn": "urn:cite:phoros:places.204",
+                "year_7": "520"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.367318999999998,
+                    37.059443000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Idyma",
+                "urn": "urn:cite:phoros:places.205",
+                "year_7": "200",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.367318999999998,
+                    37.059443000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Idyma",
+                "urn": "urn:cite:phoros:places.206",
+                "year_7": "100",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.367318999999998,
+                    37.059443000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Idyma",
+                "urn": "urn:cite:phoros:places.207",
+                "year_8": "100",
+                "year_7": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.263729000000012,
+                    37.862209
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Galepsos",
+                "urn": "urn:cite:phoros:places.208",
+                "year_8": "720",
+                "year_7": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.903047000000001,
+                    40.233058
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Eurumaxos",
+                "urn": "urn:cite:phoros:places.209",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.903047000000001,
+                    40.233058
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Eurumaxos",
+                "urn": "urn:cite:phoros:places.21",
+                "year_3": "200",
+                "year_4": "200",
+                "year_1": "200",
+                "year_5": "200",
+                "year_7": "200",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.903047000000001,
+                    40.233058
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Eurumaxos",
+                "urn": "urn:cite:phoros:places.210",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.423276000000001,
+                    36.743864000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Udissos",
+                "urn": "urn:cite:phoros:places.211",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.423276000000001,
+                    36.743864000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Udissos",
+                "urn": "urn:cite:phoros:places.212",
+                "year_8": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.423276000000001,
+                    36.743864000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Udissos",
+                "urn": "urn:cite:phoros:places.213",
+                "year_7": "30",
+                "year_8": "30"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.423276000000001,
+                    36.743864000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Udissos",
+                "urn": "urn:cite:phoros:places.214",
+                "year_7": "3600",
+                "year_8": "3600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.391984000000001,
+                    40.334274000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Χαλκις",
+                "urn": "urn:cite:phoros:places.215",
+                "year_7": "3000",
+                "year_8": "3000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.391984000000001,
+                    40.334274000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Χαλκις",
+                "urn": "urn:cite:phoros:places.216",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.391984000000001,
+                    40.334274000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Χαλκις",
+                "urn": "urn:cite:phoros:places.217",
+                "year_8": "250"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.903047000000001,
+                    40.233058
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ιμβρος",
+                "urn": "urn:cite:phoros:places.218",
+                "year_8": "1626"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.719615999999998,
+                    39.119095999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Peparethos",
+                "urn": "urn:cite:phoros:places.22",
+                "year_3": "1800",
+                "year_4": "1800",
+                "year_1": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.157222999999998,
+                    38.090825799999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kolophon",
+                "urn": "urn:cite:phoros:places.23",
+                "year_2": "1800",
+                "year_3": "1800",
+                "year_4": "1800",
+                "year_1": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.197500000000002,
+                    37.992800000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Notion",
+                "urn": "urn:cite:phoros:places.24",
+                "year_3": "100",
+                "year_2": "200",
+                "year_4": "200",
+                "year_1": "200",
+                "year_5": "200",
+                "year_7": "200",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.197500000000002,
+                    37.992800000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Notion",
+                "urn": "urn:cite:phoros:places.25",
+                "year_2": "100",
+                "year_1": "100",
+                "year_5": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.159842999999999,
+                    40.316347
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Spartolos",
+                "urn": "urn:cite:phoros:places.26",
+                "year_2": "1200",
+                "year_3": "1200",
+                "year_4": "1200",
+                "year_1": "1200",
+                "year_7": "1200",
+                "year_8": "1200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.159842999999999,
+                    40.316347
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Spartolos",
+                "urn": "urn:cite:phoros:places.27",
+                "year_2": "1800",
+                "year_5": "1800",
+                "year_1": "1800",
+                "year_7": "1800",
+                "year_8": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.159842999999999,
+                    40.316347
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Spartolos",
+                "urn": "urn:cite:phoros:places.28",
+                "year_3": "330",
+                "year_1": "330"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.928794,
+                    40.714557999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αστακος",
+                "urn": "urn:cite:phoros:places.29",
+                "year_2": "900",
+                "year_1": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.928794,
+                    40.714557999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αστακος",
+                "urn": "urn:cite:phoros:places.3",
+                "year_3": "100",
+                "year_4": "100",
+                "year_1": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.928794,
+                    40.714557999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αστακος",
+                "urn": "urn:cite:phoros:places.30",
+                "year_7": "300",
+                "year_8": "300",
+                "year_2": "300",
+                "year_1": "350"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.928794,
+                    40.714557999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αστακος",
+                "urn": "urn:cite:phoros:places.31",
+                "year_3": "400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.511426,
+                    40.873750999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Maroneia",
+                "urn": "urn:cite:phoros:places.32",
+                "year_4": "300",
+                "year_2": "900",
+                "year_3": "900",
+                "year_5": "900",
+                "year_7": "900",
+                "year_8": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.088177699999999,
+                    36.091323899999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lindos",
+                "urn": "urn:cite:phoros:places.33",
+                "year_1": "5070",
+                "year_7": "6000",
+                "year_8": "6000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.088177699999999,
+                    36.091323899999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lindos",
+                "urn": "urn:cite:phoros:places.34",
+                "year_2": "780",
+                "year_5": "600",
+                "year_7": "600",
+                "year_8": "600",
+                "year_4": "800",
+                "year_1": "800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.337060999999995,
+                    39.490600999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Assos",
+                "urn": "urn:cite:phoros:places.35",
+                "year_4": "600",
+                "year_5": "600",
+                "year_1": "600",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.270340999999998,
+                    39.719740999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Neandreia",
+                "urn": "urn:cite:phoros:places.36",
+                "year_3": "200",
+                "year_4": "200",
+                "year_5": "200",
+                "year_1": "800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.421229,
+                    39.538105000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lamponeia",
+                "urn": "urn:cite:phoros:places.37",
+                "year_4": "100",
+                "year_1": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.423765,
+                    37.038220500000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αλικαρνασσος",
+                "urn": "urn:cite:phoros:places.38",
+                "year_3": "1000",
+                "year_4": "1000",
+                "year_1": "1000",
+                "year_5": "1200",
+                "year_7": "1200",
+                "year_8": "1200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.138508999999999,
+                    40.483196999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Strepsa",
+                "urn": "urn:cite:phoros:places.39",
+                "year_4": "600",
+                "year_5": "600",
+                "year_7": "600",
+                "year_1": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.351764500000002,
+                    37.94583755
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Εφεσος",
+                "urn": "urn:cite:phoros:places.4",
+                "year_2": "4500",
+                "year_3": "4500",
+                "year_8": "4500",
+                "year_1": "4500"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.351764500000002,
+                    37.94583755
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Εφεσος",
+                "urn": "urn:cite:phoros:places.40",
+                "year_2": "900",
+                "year_3": "900",
+                "year_5": "900",
+                "year_1": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.351764500000002,
+                    37.94583755
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Εφεσος",
+                "urn": "urn:cite:phoros:places.41",
+                "year_7": "100",
+                "year_3": "200",
+                "year_4": "200",
+                "year_5": "200",
+                "year_1": "200",
+                "year_8": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.274404000000001,
+                    40.286031000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Diduma Teichos",
+                "urn": "urn:cite:phoros:places.42",
+                "year_2": "100",
+                "year_7": "100",
+                "year_1": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.274404000000001,
+                    40.286031000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Diduma Teichos",
+                "urn": "urn:cite:phoros:places.43",
+                "year_1": "2400",
+                "year_5": "600",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.770558099999999,
+                    38.361462500000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Klazomenia",
+                "urn": "urn:cite:phoros:places.44",
+                "year_2": "900",
+                "year_3": "900",
+                "year_4": "900",
+                "year_5": "900",
+                "year_7": "900",
+                "year_1": "900",
+                "year_8": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.770558099999999,
+                    38.361462500000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Klazomenia",
+                "urn": "urn:cite:phoros:places.46",
+                "year_2": "100",
+                "year_3": "100",
+                "year_4": "100",
+                "year_5": "100",
+                "year_7": "100",
+                "year_8": "100",
+                "year_1": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    30.551573000000001,
+                    36.524579000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Phaselis",
+                "urn": "urn:cite:phoros:places.47",
+                "year_5": "1800",
+                "year_7": "1800",
+                "year_8": "1800",
+                "year_3": "3600",
+                "year_4": "3600",
+                "year_1": "3600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.298362999999998,
+                    36.995871999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Termera",
+                "urn": "urn:cite:phoros:places.48",
+                "year_3": "1500",
+                "year_4": "1500",
+                "year_5": "1500",
+                "year_7": "1500",
+                "year_8": "1500",
+                "year_1": "1500"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.298362999999998,
+                    36.995871999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Termera",
+                "urn": "urn:cite:phoros:places.49",
+                "year_7": "1800",
+                "year_1": "1800",
+                "year_8": "1800",
+                "year_5": "870"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.085729000000001,
+                    40.724898500000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ainos",
+                "urn": "urn:cite:phoros:places.5",
+                "year_3": "7200",
+                "year_4": "1800",
+                "year_1": "7200",
+                "year_2": "7200",
+                "year_5": "7200",
+                "year_7": "7200",
+                "year_8": "855.5"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.085729000000001,
+                    40.724898500000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ainos",
+                "urn": "urn:cite:phoros:places.50",
+                "year_1": "246",
+                "year_2": "250",
+                "year_3": "250",
+                "year_4": "250",
+                "year_5": "250",
+                "year_7": "250",
+                "year_8": "250"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.165652999999999,
+                    40.992870000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Dikaia by Abdera",
+                "urn": "urn:cite:phoros:places.51",
+                "year_3": "300",
+                "year_4": "300",
+                "year_5": "300",
+                "year_7": "300",
+                "year_1": "300",
+                "year_8": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.983332999999998,
+                    40.950000000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αβδηρα",
+                "urn": "urn:cite:phoros:places.52",
+                "year_8": "9000",
+                "year_1": "7712",
+                "year_7": "8400",
+                "year_3": "9000",
+                "year_5": "9000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.355769666666667,
+                    40.295328000000005
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ολυνθος",
+                "urn": "urn:cite:phoros:places.53",
+                "year_2": "1200",
+                "year_4": "1200",
+                "year_5": "1200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.590554999999998,
+                    40.332591000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skabla",
+                "urn": "urn:cite:phoros:places.54",
+                "year_4": "300",
+                "year_5": "300",
+                "year_7": "300",
+                "year_8": "300"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.590554999999998,
+                    40.332591000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skabla",
+                "urn": "urn:cite:phoros:places.55",
+                "year_1": "1600",
+                "year_4": "2400",
+                "year_5": "2400",
+                "year_7": "2400",
+                "year_8": "2400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.539631,
+                    40.298222000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Sermylia",
+                "urn": "urn:cite:phoros:places.56",
+                "year_7": "1800",
+                "year_8": "1800",
+                "year_4": "3550",
+                "year_1": "4632"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.396101000000002,
+                    40.278319000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Mekyberna",
+                "urn": "urn:cite:phoros:places.57",
+                "year_2": "600",
+                "year_5": "600",
+                "year_7": "600",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.664835,
+                    40.369151000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Stolos",
+                "urn": "urn:cite:phoros:places.58",
+                "year_7": "500",
+                "year_8": "500"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.664835,
+                    40.369151000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Stolos",
+                "urn": "urn:cite:phoros:places.59",
+                "year_1": "1400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.664835,
+                    40.369151000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Stolos",
+                "urn": "urn:cite:phoros:places.6",
+                "year_1": "100",
+                "year_3": "100",
+                "year_4": "100",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.721477,
+                    40.249169999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Singos",
+                "urn": "urn:cite:phoros:places.60",
+                "year_7": "1200",
+                "year_8": "1200",
+                "year_3": "2400",
+                "year_4": "2400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.717535000000002,
+                    40.78201
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Θασος",
+                "urn": "urn:cite:phoros:places.61",
+                "year_7": "1470",
+                "year_3": "1800",
+                "year_4": "1800",
+                "year_1": "1800",
+                "year_8": "324"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.717535000000002,
+                    40.78201
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Θασος",
+                "urn": "urn:cite:phoros:places.62",
+                "year_1": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.570356,
+                    37.050370999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pikres Syangela",
+                "urn": "urn:cite:phoros:places.63",
+                "year_1": "300",
+                "year_5": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.570356,
+                    37.050370999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Pikres Syangela",
+                "urn": "urn:cite:phoros:places.64",
+                "year_3": "300",
+                "year_4": "300",
+                "year_8": "300",
+                "year_1": "300",
+                "year_7": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.951332000000001,
+                    37.042417999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Κεραμος",
+                "urn": "urn:cite:phoros:places.65",
+                "year_3": "900",
+                "year_4": "900",
+                "year_7": "900",
+                "year_8": "900",
+                "year_1": "900"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.307181,
+                    38.327244999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Boutheia",
+                "urn": "urn:cite:phoros:places.66",
+                "year_2": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.442249,
+                    37.067653999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kyllandos",
+                "urn": "urn:cite:phoros:places.67",
+                "year_3": "1200",
+                "year_4": "1200",
+                "year_7": "1200",
+                "year_8": "1200",
+                "year_1": "1200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.442249,
+                    37.067653999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kyllandos",
+                "urn": "urn:cite:phoros:places.68",
+                "year_7": "100",
+                "year_8": "200",
+                "year_1": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.442249,
+                    37.067653999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kyllandos",
+                "urn": "urn:cite:phoros:places.69",
+                "year_2": "103"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.359987,
+                    37.088887
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Madnasa/Medmassa",
+                "urn": "urn:cite:phoros:places.7",
+                "year_1": "1200",
+                "year_3": "1200",
+                "year_8": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.359987,
+                    37.088887
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Madnasa/Medmassa",
+                "urn": "urn:cite:phoros:places.70",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "100",
+                "year_1": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.690895999999999,
+                    37.598880000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Mydon",
+                "urn": "urn:cite:phoros:places.71",
+                "year_3": "150",
+                "year_7": "150",
+                "year_8": "150",
+                "year_1": "150"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    29.156389999999998,
+                    40.432468999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Kios",
+                "urn": "urn:cite:phoros:places.72",
+                "year_7": "100",
+                "year_8": "100",
+                "year_1": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.796268000000001,
+                    40.402951999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Artake",
+                "urn": "urn:cite:phoros:places.73",
+                "year_3": "200",
+                "year_1": "200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    24.415015,
+                    40.935040000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Neapolis in Thrace",
+                "urn": "urn:cite:phoros:places.74",
+                "year_1": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.534030099999999,
+                    40.504842699999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Berytis below Mt. Ida",
+                "urn": "urn:cite:phoros:places.75",
+                "year_3": "100",
+                "year_5": "100",
+                "year_7": "100",
+                "year_8": "100",
+                "year_1": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.534030099999999,
+                    40.504842699999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Berytis below Mt. Ida",
+                "urn": "urn:cite:phoros:places.76",
+                "year_1": "50",
+                "year_2": "50",
+                "year_3": "50",
+                "year_4": "50",
+                "year_5": "50",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.282229000000001,
+                    36.723334999999999
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Ιος",
+                "urn": "urn:cite:phoros:places.77",
+                "year_7": "100",
+                "year_1": "600",
+                "year_2": "600",
+                "year_3": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.069095999999998,
+                    40.420499
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Parion",
+                "urn": "urn:cite:phoros:places.78",
+                "year_1": "600",
+                "year_2": "600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.674195999999998,
+                    40.377645000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Daskyleion in Propontidi",
+                "urn": "urn:cite:phoros:places.79",
+                "year_1": "50",
+                "year_3": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.674195999999998,
+                    40.377645000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Daskyleion in Propontidi",
+                "urn": "urn:cite:phoros:places.8",
+                "year_4": "300",
+                "year_5": "300",
+                "year_7": "300",
+                "year_8": "300",
+                "year_3": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.423668000000003,
+                    37.750149
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αίγινα",
+                "urn": "urn:cite:phoros:places.80",
+                "year_2": "18000",
+                "year_3": "18000",
+                "year_1": "3000"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.423668000000003,
+                    37.750149
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Αίγινα",
+                "urn": "urn:cite:phoros:places.81",
+                "year_1": "1800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.094768999999999,
+                    37.057578999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lepsimandos",
+                "urn": "urn:cite:phoros:places.83",
+                "year_2": "103",
+                "year_3": "150",
+                "year_4": "150",
+                "year_7": "150",
+                "year_8": "150"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.094768999999999,
+                    37.057578999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lepsimandos",
+                "urn": "urn:cite:phoros:places.84",
+                "year_2": "413"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.646106,
+                    37.002222000000003
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Amynanda",
+                "urn": "urn:cite:phoros:places.85",
+                "year_2": "305"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.367318999999998,
+                    37.059443000000002
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Paktyes Idyma",
+                "urn": "urn:cite:phoros:places.86",
+                "year_2": "689"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.278841,
+                    37.093516000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Uranium",
+                "urn": "urn:cite:phoros:places.87",
+                "year_2": "103",
+                "year_4": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.374144999999999,
+                    37.101050000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Oula",
+                "urn": "urn:cite:phoros:places.88",
+                "year_2": "103"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    28.374144999999999,
+                    37.101050000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Oula",
+                "urn": "urn:cite:phoros:places.89",
+                "year_2": "103"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.574784999999999,
+                    39.939062999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skione",
+                "urn": "urn:cite:phoros:places.9",
+                "year_2": "3600",
+                "year_3": "3600",
+                "year_4": "3600"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.574784999999999,
+                    39.939062999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skione",
+                "urn": "urn:cite:phoros:places.90",
+                "year_2": "100",
+                "year_4": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.574784999999999,
+                    39.939062999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skione",
+                "urn": "urn:cite:phoros:places.91",
+                "year_2": "1200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    23.574784999999999,
+                    39.939062999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Skione",
+                "urn": "urn:cite:phoros:places.92",
+                "year_2": "1200",
+                "year_3": "1200",
+                "year_7": "1200",
+                "year_8": "1200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.534030099999999,
+                    40.504842699999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Σαμοθράκη",
+                "urn": "urn:cite:phoros:places.93",
+                "year_2": "1800",
+                "year_4": "3600",
+                "year_5": "3600",
+                "year_7": "3600",
+                "year_8": "3600",
+                "year_3": "4800"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.322257,
+                    39.965475499999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Hephaistia",
+                "urn": "urn:cite:phoros:places.94",
+                "year_8": "216"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.699162000000001,
+                    40.346685000000001
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Lampsakos",
+                "urn": "urn:cite:phoros:places.95",
+                "year_8": "360",
+                "year_7": "520",
+                "year_2": "7200",
+                "year_4": "7200"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.242415000000001,
+                    37.073690999999997
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Myndos",
+                "urn": "urn:cite:phoros:places.96",
+                "year_2": "50",
+                "year_3": "50",
+                "year_4": "50",
+                "year_5": "50",
+                "year_7": "50",
+                "year_8": "50"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.069172999999999,
+                    38.874665
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Gryneion",
+                "urn": "urn:cite:phoros:places.97",
+                "year_2": "100",
+                "year_3": "100",
+                "year_7": "100",
+                "year_8": "100"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.069172999999999,
+                    38.874665
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Gryneion",
+                "urn": "urn:cite:phoros:places.98",
+                "year_8": "300",
+                "year_2": "400"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    27.537659999999999,
+                    37.498075999999998
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "siteName": "Latmos",
+                "urn": "urn:cite:phoros:places.99",
+                "payments": {
+                    "year_2": "600",
+                    "year_3": "600",
+                    "year_4": "600",
+                    "year_8": "600"
+                },
+                "year_2": "600",
+                "year_3": "600",
+                "year_4": "600",
+                "year_8": "600"
+            }
+        }
+    ]
+}
