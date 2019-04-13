@@ -1,137 +1,41 @@
-* {
-    font-family:'Balthazar', serif;
-    padding: 0;
-    margin:0;
-}
 body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background: lightblue;
+  font-family:'Balthazar', serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: lightblue;
 }
 svg {
-    background: lightblue;
+  background: lightblue;
+}
+.custom-select {
+  margin-left: 15px;
 }
 .country {
-    fill: lightgray;
-    stroke: black;
-    stroke-Width: 0.5px;
+  fill: lightgray;
+  stroke: gray;
+  stroke-width: 0.5px;
 }
 text {
-    font-family:'Balthazar', serif;
-    font-size: 9pt;
-    font-weight: bold;
-}
-table {
-    border:none;
+  font-family:'Balthazar', serif;
+  font-size: 9pt;
+  font-weight: bold;
 }
 .d3-tip {
-    line-height: 1;
-    font-family:'Balthazar', serif;
-    font-weight: bold;
-    color: #ffffff;
-    background-color:rgba(0,0,0,0.7);
-    padding: 5px;
-    text-align: center;
-    border-radius: 10px;
-}
-.d3-tip img{
-    padding-top: 3px;
-    border-radius: 10px;
-}
-#legend {
-    padding: 1.5em 0 0 1.5em;
-}
-li.key {
-    border-top-width: 15px;
-    border-top-style: solid;
-    font-size: .75em;
-    width: 10%;
-    padding-left: 0;
-    display: inline-block;
-    padding-right: 0;
-}
-.x.label {
-    font-size:40px;
-}
-#visuals {
-    margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    width:1360px;
-}
-#ui_controls {
-    margin-right: auto;
-    margin-left: auto;
-    width:1360px;
-}
-label.custom-select {
-    position: relative;
-    display: inline-block;
-}
-.custom-select select {
-    display: inline-block;
-    border: 2px solid #bbb;
-    padding: 4px 3px 3px 5px;
-    margin: 0;
-    font: inherit;
-    outline:none;
-    /* remove focus ring from Webkit */
-    line-height: 1.2;
-    background: #f8f8f8;
-    -webkit-appearance:none;
-    /* remove the strong OSX influence from Webkit */
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-}
-/* for Webkit's CSS-only solution */
- @media screen and (-webkit-min-device-pixel-ratio:0) {
-    .custom-select select {
-        padding-right:30px;
-    }
-}
-/* Since we removed the default focus styles, we have to add our own */
- .custom-select select:focus {
-    -webkit-box-shadow: 0 0 3px 1px #c00;
-    -moz-box-shadow: 0 0 3px 1px #c00;
-    box-shadow: 0 0 3px 1px #c00;
-}
-/* Select arrow styling */
- .custom-select:after {
-    content:"V";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    font-size: 60%;
-    line-height: 30px;
-    padding: 0 7px;
-    background: #bbb;
-    color: white;
-    pointer-events:none;
-    -webkit-border-radius: 0 6px 6px 0;
-    -moz-border-radius: 0 6px 6px 0;
-    border-radius: 0 6px 6px 0;
-}
-.no-pointer-events .custom-select:after {
-    content: none;
-}
-footer {
-    position:absolute;
-    top:20px;
-    right:20px;
-    width:400px;
+  line-height: 1;
+  font-family:'Balthazar', serif;
+  font-weight: bold;
+  color: #ffffff;
+  background-color:rgba(0,0,0,0.7);
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
 }
 .axis path, .axis line {
-    fill: none;
-    stroke: black;
-    shape-rendering: crispEdges;
-}
-.axis text {
-    font-family: sans-serif;
-    font-size: 11px;
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
 }

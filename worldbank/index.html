@@ -2,78 +2,115 @@
 <html>
 
 <head>
-    <title>World Bank API Visualization</title>
-    <meta charset=utf-8>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv='Cache-Control' content='no-cache'>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Visualizing the World with Data querying the World Bank API">
-    <meta name="keywords" content="HTML5,CSS,JavaScript,d3,World,Bank,API,Data,Visualization,Graph,Maps,D3">
-    <meta name="author" content="shamangeorge">
-    <meta name='abstract' content='Visualizing the World with Data by querying the World Bank API'>
-    <meta name='distribution' content='Global'>
-    <link rel='shortcut icon' type='image/ico' href='content="http://shamangeorge.com/experiments/webgl/lyapunov/img/favicon.ico'>
-    <link rel="author" href="https://plus.google.com/+GeorgeShaman">
-    <link rel='me' type='text/html' href='https://plus.google.com/+GeorgeShaman'>
+  <title>World Bank API Visualization</title>
+  <meta charset=utf-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv='Cache-Control' content='no-cache'>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Visualizing the World with Data querying the World Bank API">
+  <meta name="keywords" content="HTML5,CSS,JavaScript,d3,World,Bank,API,Data,Visualization,Graph,Maps,D3">
+  <meta name="author" content="shamangeorge">
+  <meta name='abstract' content='Visualizing the World with Data by querying the World Bank API'>
+  <meta name='distribution' content='Global'>
 
-    <meta property="og:title" content="Visualizing the World with Data by querying the World Bank API" />
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="http://gfx.shamangeorge.com/d3maps/worldbank/logo.png" />
-    <meta property="og:image:width" content="256">
-    <meta property="og:image:height" content="256">
-    <meta property="og:url" content="http://gfx.shamangeorge.com/d3maps/worldbank/" />
-    <meta property='og:description' content='Visualizing the World with Data by querying the World Bank API' />
-
-    <meta property="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Visualizing the World with Data by querying the World Bank API" />
-    <meta property="twitter:image" content="http://gfx.shamangeorge.com/d3maps/worldbank/logo.png" />
-    <meta property="twitter:url" content="http://gfx.shamangeorge.com/d3maps/worldbank/" />
-    <meta property='twitter:description' content='Visualizing the World with Data by querying the World Bank API' />
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="../libs/queue.v1.min.js"></script>
-    <script type="text/javascript" src="../libs/topojson.v1.min.js"></script>
-    <script type="text/javascript" src="../libs/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="../libs/colorbrewer.js"></script>
-    <script type="text/javascript" src="../libs/d3.tip.v0.6.3.js"></script>
-    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Balthazar'>
-    <link rel="stylesheet" type='text/css' href="./css/pure-min.css">
-    <link rel="stylesheet" type='text/css' href="./css/main.css">
+  <!-- Fonts -->
+  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Balthazar'>
+  <!-- CSS -->
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type='text/css' href="./css/pure-min.css"> -->
+  <link rel="stylesheet" type='text/css' href="./css/main.css">
 </head>
 
 
 <body>
-    <section id="ui_controls">
-        <p>
-            <label class="custom-select">
-                <select id="selector"></select>
-            </label>
-        </p>
-        <p>
-            <label class="custom-select">
-                <select id="selectorYear"></select>
-            </label>
-        </p>
-        <div id="legend"></div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">World Bank API v2 Visualization</a>
+      </div>
+      <div class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav">
+          <li>
+            <div>
+              <label for="topic" class="custom-select">
+                Choose a topic<br>
+                <select id="topic" class="js-states form-control"></select>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="selectorYear" class="custom-select">
+                Choose a year<br>
+                <select id="selectorYear" class="js-states form-control"></select>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="selector" class="custom-select">
+                Choose an indicator<br>
+                <select id="selector" class="js-states form-control"></select>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <section class="row">
+      <div class="col-md-3 text-justify" style="font-size: 20px;">
+        <h3>Indicator:</h3>
+        <p id="name_of_indicator"></p>
+        <h3>Description:</h3>
+        <p id="description_of_indicator"></p>
+        <h3>Data Source:</h3>
+        <p id="source_of_indicator"></p>
+        <p id="focused_country" style="color: red;"></p>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button id="change_projection_button" class="btn btn-xs btn-warning">Change Projection</button>
+            <button id="change_colormap_button" class="btn btn-xs btn-warning">Change Colormap</button>
+          </div>
+          <div id="world_map_container">
+            <svg style="border: 2px solid black" id="vis"></svg>
+          </div>
+        </div>
+        <div class="row">
+          <svg style="border: 2px solid black" id="textLabel"></svg>
+        </div>
+      </div>
     </section>
-    <section id="visuals">
-        <table>
-            <tr>
-                <td>
-                    <div id="vis"></div>
-                </td>
-                <td>
-                    <div id="textLabel"></div>
-                </td>
-            </tr>
-        </table>
-    </section>
-    <script src="./GeoWorld.js"></script>
-    <footer>
-        <h3>Data Sources</h3>
-        <p>This Visualization queries the World Bank API. Countries Without Data are marked grey. Countries with data will be marked according to the color scale. The dates range from 1970 up to 2012. Flags and other country data are taken from the tinatapi and the cia world factbook</p>
-    </footer>
-</body>
+  </div>
+  <!-- latest jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <!-- Selector 2 library -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+  <!-- D3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../libs/queue.v1.min.js"></script>
+  <script type="text/javascript" src="../libs/topojson.v1.min.js"></script>
+  <script type="text/javascript" src="../libs/colorbrewer.js"></script>
+  <script type="text/javascript" src="../libs/d3.tip.v0.6.3.js"></script>
+  <script src="./GeoWorld.js"></script>
+</body>
 </html>
